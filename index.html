@@ -11,6 +11,13 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+		<!-- Poppins Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="index.css" />
 		<title>Burger Palace</title>
 	</head>
@@ -20,22 +27,28 @@
 				<div class="appbar">
 					<div class="logo">
 						<img src="assets/images/logo.png" alt="logo" />
-						<h1 class="title">
-							<span class="first">Bur</span><span class="last">ger</span>
-						</h1>
+						<h1><span class="first">Bur</span><span class="last">ger</span></h1>
 					</div>
 					<nav>
 						<ul>
-							<li>Home</li>
-							<li>Offers</li>
-							<li>Contact</li>
-							<li>About</li>
+							<li class="nav-items">
+								<a href="#"> Home </a>
+							</li>
+							<li class="nav-items">
+								<a href="#"> Offers </a>
+							</li>
+							<li class="nav-items">
+								<a href="#"> Contact </a>
+							</li>
+							<li class="nav-items">
+								<a href="#"> About </a>
+							</li>
 						</ul>
+						<div class="icon">
+							<span><i class="fas fa-shopping-cart"></i></span>
+							<span class="value">2</span>
+						</div>
 					</nav>
-					<div class="icon">
-						<span><i class="fas fa-shopping-cart"></i></span>
-						<span class="value">2</span>
-					</div>
 				</div>
 			</header>
 		</main>
