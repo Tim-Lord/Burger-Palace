@@ -25,5 +25,5 @@ Contact me on <timothy.otieno@student.moringaschool.com>
 
 ### License
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the MIT license.<br>
 Copyright (c) 2021 **Timothy Omondi Otieno**
