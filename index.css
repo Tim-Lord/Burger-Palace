@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: o;
+	margin: 0;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+main {
+	max-width: 1096px;
+	margin: 0 auto;
+}
+
+/** Header **/
+
+header {
+	height: 95vh;
+	padding: 0 1rem;
+	position: relative;
+}
+
+/* 1. Top of the Header **/
+
+.appbar {
+	width: 100%;
+	height: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	top: o;
+	left: 0;
+	background-color: transparent;
+	z-index: 1;
+}
+
+/* - Website Logo and Title **/
+
+.logo {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.logo h1 {
+	display: inline-block;
+	margin-left: 1rem;
+	font-style: italic;
+	font-size: 2.75rem;
+	letter-spacing: 0.2rem;
+}
+
+.logo h1 .last {
+	color: #f6b400;
+}
+
+/* - Website Navigation **/
+
+nav {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+nav ul {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-items {
+	list-style: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 1.25rem;
+	font-weight: 600;
+	border-bottom: 0.5rem solid transparent;
+	transition: 0.5s ease-in;
+}
+
+.nav-items:hover {
+	border-bottom: 0.5rem solid #f66f00;
+}
+
+.nav-items a {
+	text-decoration: none;
+	color: black;
+}
+
+/* Website Cart */
+
+.icon {
+	position: relative;
+}
+
+.icon span {
+	font-size: 1.2rem;
+	display: inline-block;
+}
+
+.icon .value {
+	display: inline-block;
+	font-size: 0.6rem;
+	padding: 0.2rem 0.35rem;
+	background-color: #f66f00;
+	border: none;
+	border-radius: 50%;
+	position: absolute;
+	top: -1rem;
+	right: -1rem;
+}
