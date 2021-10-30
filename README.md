@@ -4,7 +4,7 @@
 
 #### The Burger Palace Website, 30th October, 2021
 
-#### By **1. Timothy Omondi Otieno**
+#### By **Timothy Omondi Otieno**
 
 ## Description
 
@@ -16,8 +16,8 @@ This is the official burger palace website. It provides important information ab
 
 ## Setup/Installation Requirements
 
-1. - Clone this repository to your local system. This repo is located at: <https://github.com/Tim-Lord/Burger-Palace>
-2. - Open the index.html file from your favourite browser.
+- Clone this repository to your local system. This repo is located at: <https://github.com/Tim-Lord/Burger-Palace>
+- Open the index.html file from your favourite browser.
 
 ## Support and contact details
 
