@@ -23,7 +23,7 @@ This is the official burger palace website. It provides important information ab
 
 Contact me on <timothy.otieno@student.moringaschool.com>
 
-### License
+## License
 
 This project is licensed under the terms of the MIT license.<br>
 Copyright (c) 2021 **Timothy Omondi Otieno**
