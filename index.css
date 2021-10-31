@@ -220,6 +220,7 @@ nav ul {
 
 .menu {
 	text-align: center;
+	padding-bottom: 5rem;
 }
 
 .menu h2 {
@@ -240,4 +241,56 @@ nav ul {
 .menu h2 .last {
 	color: #f6b400;
 	margin-left: 0.5rem;
+}
+
+.menu div {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.menu article {
+	width: 30%;
+	margin: 1.5rem 0;
+	border: none;
+	border-radius: 3rem;
+	box-shadow: -1px 2px 4px 1px rgba(0, 0, 0, 0.75);
+	padding: 1.5rem;
+}
+
+.menu article img {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 1.5rem;
+}
+
+.burger-body h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #570808;
+	letter-spacing: 0.1rem;
+	margin-bottom: 1.2rem;
+}
+
+.burger-body p {
+	font-size: 0.85rem;
+	color: #302f2fce;
+	margin-bottom: 2rem;
+}
+
+.burger-footer {
+	width: 100%;
+	font-size: 1.2rem;
+	color: #302f2fce;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.burger-footer .add-cart {
+	border: 1px solid #302f2fce;
+	border-radius: 0.5rem;
+	padding: 0.25rem 1rem;
 }
