@@ -215,3 +215,29 @@ nav ul {
 .second-article {
 	transform: scale(1.2);
 }
+
+/** Menu Section **/
+
+.menu {
+	text-align: center;
+}
+
+.menu h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 8rem 0 4rem;
+}
+
+.menu h2::after {
+	content: " ";
+	display: block;
+	margin: 0 auto;
+	width: 8%;
+	height: 0.75rem;
+	background-color: #f66f00;
+}
+
+.menu h2 .last {
+	color: #f6b400;
+	margin-left: 0.5rem;
+}
