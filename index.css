@@ -359,4 +359,87 @@ nav ul {
 	font-size: 2.5rem;
 	width: 30%;
 	margin-left: 2rem;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+/** Double Decker Image **/
+
+.double-decker-image {
+	width: 50%;
+	position: relative;
+}
+
+.double-decker-image img {
+	width: 80%;
+	position: absolute;
+}
+
+.double-decker-back {
+	top: 10rem;
+	right: 2rem;
+}
+
+.double-decker-front {
+	top: 12rem;
+	left: 0;
+}
+
+/** Mobile View Section **/
+
+.mobile-view {
+	width: 100%;
+	display: flex;
+}
+
+.mobile-view-info {
+	width: 50%;
+	background-color: #f6b400;
+	padding: 10rem 0 3rem 6rem;
+}
+
+.mobile-view-info h3 {
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin-bottom: 3rem;
+}
+
+.mobile-view-info span {
+	display: block;
+}
+
+.mobile-btn button {
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 0.25rem;
+	outline: none;
+	margin: 0.75rem;
+	padding: 0.5rem 0.75rem;
+	cursor: pointer;
+}
+
+.mobile-btn span {
+	text-align: start;
+}
+
+.mobile-btn .first {
+	font-size: 0.85rem;
+}
+
+.mobile-btn .second {
+	font-size: 1.45rem;
+}
+
+.mobile-view-image {
+	width: 50%;
+	background-color: #f6b400;
+	padding-bottom: 3rem;
+}
+
+.mobile-view-image img {
+	width: 88%;
+	margin-top: 5rem;
 }
