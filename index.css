@@ -181,3 +181,37 @@ nav ul {
 	right: 8rem;
 	z-index: 10;
 }
+
+/** Information Section **/
+
+.info {
+	background-color: #e1ebe6;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 6rem 0;
+}
+
+.info article {
+	width: 28%;
+	text-align: center;
+	border: 1px solid #570808;
+	border-radius: 0.75rem;
+	padding: 2rem 1.45rem;
+}
+
+.info article h2 {
+	margin: 1.5rem 0;
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #570808;
+}
+
+.info article p {
+	font-size: 0.75rem;
+	color: #302f2fce;
+}
+
+.second-article {
+	transform: scale(1.2);
+}
